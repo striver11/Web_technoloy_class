@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>assignment</h1>
+    <table border="1" width="300px" rules="all" cellpadding="10px" cellspacing="5px">
+        <tr>
+            <th>Sno</th>
+            <th>Product</th>
+            <th>Price</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Pen</td>
+                <td rowspan="2">₹5</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Pencil</td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Book</td>
+                <td>₹50</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h1>assignment 2</h1>
+    <table border="1">
+        <tr>
+            <th>Lorem, ipsum.</th>
+            <th>Porro, deserunt!</th>
+            <th>Tempora, maxime.</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td rowspan="2">row1 cell1</td>
+                <td>Culpa!</td>
+                <td>Dolorum.</td>
+            </tr>
+            <tr>
+
+                <td>Laboriosam.</td>
+                <td>Earum?</td>
+            </tr>
+            <tr>
+                <td>Lorem.</td>
+                <td>Reprehenderit?</td>
+                <td>Quidem.</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <hr>
+    <h1>Table 1</h1>
+    <table border="1" cellpadding="10px" cellspacing="5px" align="center">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>job</th>
+                <th>Email Id</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lorem.</td>
+                <td>Placeat.</td>
+                <td>Deleniti!</td>
+            </tr>
+            <tr>
+                <td>Lorem.</td>
+                <td>Id.</td>
+                <td>Dolor.</td>
+            </tr>
+            <tr>
+                <td>Lorem, ipsum.</td>
+                <td>At, totam.</td>
+                <td>Ducimus, mollitia.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <h1>Table 2</h1>
+    <table border="5" rules="all" cellpadding="10px" cellspacing="5px" align="center" width="500px">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>job</th>
+                <th>Email Id</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lorem.</td>
+                <td>Placeat.</td>
+                <td>Deleniti!</td>
+            </tr>
+            <tr align="center">
+                <td>Lorem.</td>
+                <td>Id.</td>
+                <td>Dolor.</td>
+            </tr>
+            <tr align="center">
+                <td>Lorem, ipsum.</td>
+                <td>At, totam.</td>
+                <td>Ducimus, mollitia.</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <hr>
+
+
+    <h1>Table 2</h1>
+    <table border="5" rules="all" cellpadding="10px" cellspacing="5px" align="center" width="500px">
+        <p>write align="cennter" in tbody</p>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>job</th>
+                <th>Email Id</th>
+            </tr>
+        </thead>
+        <tbody align="center">
+            <tr>
+                <td>Lorem.</td>
+                <td>Placeat.</td>
+                <td>Deleniti!</td>
+            </tr>
+            <tr>
+                <td>Lorem.</td>
+                <td>Id.</td>
+                <td>Dolor.</td>
+            </tr>
+            <tr align="center">
+                <td>Lorem, ipsum.</td>
+                <td>At, totam.</td>
+                <td>Ducimus, mollitia.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <hr>
+    <hr>
+    <h1>rowspan</h1>
+    <ol>
+        <li>this is used to merge the two rows vertically</li>
+        <li>remove the <td> in <mark>different</mark> rows </li>
+        <li>if we want to merge two rows we will add rowspan="2" and remove the <mark>td</mark> in the <mark>next</mark>
+            <mark>tr</mark> </li>
+        <li>observe the code</li>
+    </ol>
+    <h4>example for row span</h4>
+    <table border="1" rules="all" width="500px" cellpadding="20px" align="center">
+        <thead>
+            <tr>
+                <th>Sno</th>
+                <th>Product</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bitco Pen</td>
+                <td rowspan="2">5</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>cello pen</td>
+                <!-- <td></td> we should remove it as -->
+            </tr>
+            <tr>
+                <td>3</td>
+                <td rowspan="2">pencil</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <!-- <td></td>  we need only two -->
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>bag</td>
+                <td>1000</td>
+            </tr>
+        </tbody>
+
+
+    </table>
+
+    <hr>
+    <hr>
+    <h1>colspan</h1>
+    
+    <ol>
+        <li>colspan is used to merge two or more columns together</li>
+        <li>remove the <td> in <mark>same </mark>rows</li>
+        <li>if we want to merge two rows we will add rowspan="2" and remove the <mark>td</mark> in the <mark>same</mark>
+            <mark>tr</mark></li>
+    </ol>
+    <table border="1" cellpadding="20px" cellspacing="10px" width="500px" align="center">
+    <thead>
+        <tr>
+            <th>Sno</th>
+            <th>Product</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td colspan="2">Bitco Pen</td>
+             
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>cello pen</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td rowspan="2">pencil</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <!-- <td></td>  we need only two -->
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>bag</td>
+            <td>1000</td>
+        </tr>
+    </tbody>
+
+
+    </table>
+
+
+    <hr>
+    <hr>
+   <a href="https://www.w3.org/TR/html401/struct/tables.html" target="_blank"><h3>challange 1</h3></a>
+    <h1>count the number of cells in row if we counted the merged cell in top row don't count it in next row it would be easier to build top counting is important</h1>
+   <h2>in below <mark>challange 1 table</mark> number of cells in first row is 3 and number of cells in second row in 2 as we already counted the MERGED CELLS IN FIRST ROW </h2>
+    <hr>
+    
+    <h3>if we want to remove the  do the row span between the <mark>thead and tbody rows we cannot do it</mark> so we need to write all table in with out thead and tbody but in react it will raise errors</h3>
+<table border="1" rules="all" width="500px" cellpadding="20px" style="text-align: center;" align="center">
+    <thead>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2">average</th>
+            <th rowspan="2">red eyes</th>
+            
+        </tr>
+        <tr>
+            <th>height</th>
+            <th>wight</th>  
+        </tr> 
+    </thead>
+    <tbody>
+        <tr>
+            <td>male</td>
+            <td>1.9106</td>
+            <td>46645</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <td>female</td>
+            <td>1.454</td>
+            <td>64654</td>
+            <td>60%</td>
+        </tr>
+    </tbody>
+</table>
+<p>we can do it in this way it will give same out put</p>
+<table border="1" rules="all" width="500px" cellpadding="20px" style="text-align: center;" align="center">
+    
+        <tr>
+            <td rowspan="2"></td>
+            <td colspan="2">average</td>
+            <td rowspan="2">red eyes</td>
+            
+        </tr>
+        <tr>
+            <td>height</td>
+            <td>wight</td>  
+        </tr> 
+    
+  
+        <tr>
+            <td>male</td>
+            <td>1.9106</td>
+            <td>46645</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <td>female</td>
+            <td>1.454</td>
+            <td>64654</td>
+            <td>60%</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+<hr>
+<hr>
+<a href="https://media.geeksforgeeks.org/wp-content/uploads/20200815213442/timetableimage.JPG" target="_blank"><h1>challange 2</h1></a>
+<table border="1" cellpadding="20px"  rules="all" style="text-align: center;" align="center">
+    <tr>
+        <td>day/period</td>
+        <td>I</td>
+        <td>II</td> 
+        <td>III</td>
+        <td >12:00-12:40</td>
+        <td>IV</td>
+        <td>V</td>
+        <td>VI</td>
+        <td>VII</td>
+    </tr>
+    <tr>
+        <td>MONDAY</td>
+        <td>ENG</td>
+        <td>mat</td>    
+        <td>cha</td>
+        <td rowspan="6">L <br>
+            U <br>N <br>C <br>H</td>
+        <td colspan="3">lab</td>
+        <td>phy</td>
+       
+        <!-- <td></td>
+        <td></td> don't need them as we have 7 cells in first row along with merged cell -->
+    </tr>
+    <tr>
+        <td>tuesday</td>
+        <td colspan="3">lab</td>
+        <td>eng</td>
+        <td>che</td>
+        <td>mat</td>
+        <td>sports</td>
+        <!-- <td></td>
+        <td></td>
+        <td></td>not needed because the row two has 6 rows as we remove the merged row lunch count in this one -->
+    </tr>
+    <tr>
+        <td>wednesday</td>
+        <td>mat</td>
+        <td>phy</td>
+        <td>eng</td>
+        <td>che</td>
+        <td colspan="3">library</td>
+        <!-- <td></td>
+        <td></td>
+        <td></td> -->
+    </tr>
+    <tr>
+        <td>thursday</td>
+        <td>phy</td>
+        <td>ENG</td>
+        <td>che</td>
+        <td colspan="3">lab</td>
+        <td>mat</td>
+        <!-- <td></td>
+        <td></td>
+        <td></td> -->
+    </tr>
+    <tr>
+        <td>Friday</td>
+        <td colspan="3">lab</td>
+        <td>mat</td>
+        <td>che</td>
+        <td>eng</td>
+        <td>phy</td>
+        
+        <!-- <td></td>
+        <td></td>
+        <td></td> -->
+    </tr>
+    <tr>
+        <td>saturday</td>
+        <td>eng</td>
+        <td>che</td>
+        <td>mat</td>
+        <td colspan="3">seminar</td>
+        <td>sports</td>
+        <!-- <td></td>
+        <td></td>
+        <td></td> -->
+    </tr>
+</table>
+
+</body>
+
+</html>

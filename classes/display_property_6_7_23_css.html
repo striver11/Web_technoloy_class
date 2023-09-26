@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display property</title>
+    <style>
+        .a{
+            background-color: green;
+            display: inline;
+        /* we use inline to convert block element such as 'h1' to inline element */
+        }
+        .link{
+            background-color: blue;
+            display: block;
+             /* we use inline to convert inline element such as 'a' to block element */
+        }
+        .btn{
+            margin:auto;
+            /* here the button will be we alligned in the centre of the page as it is inline element so we have to convert into block */
+        }
+        .btn2{
+            margin: auto;
+            display: block;
+        }
+        .main1 , .main2{
+            height:100px ;
+            width: 100px;
+            display: inline;
+            
+        }
+        .main1{
+            background-color: red;
+        }
+        .main2{
+            background-color: yellow;
+        }
+        .main3 , .main4{
+            height:100px ;
+            width: 100px;
+            display: inline;
+            
+        }
+        .main3{
+            background-color: red;
+        }
+        .main4{
+            background-color: yellow;
+        }
+        .main5 , .main6{
+            height:100px ;
+            width: 100px;
+            display: inline-block;
+            /* margin: auto; */
+            /* will not work */
+            
+        }
+        .main5{
+            background-color: red;
+            /* margin-left:500px; */
+            /* the margin-left line will make the blocks non-resposive it abstructs the resposive ness of the website */
+        }
+        .main6{
+            background-color: yellow;
+        }
+        .main7 , .main8{
+            height:100px ;
+            width: 100px;
+            /* display: inline-block; */
+            /* margin: auto; */
+            /* will not work */
+            display: flex;
+            /* it is not working */
+
+            
+        }
+        .main7{
+            background-color: blue;
+        }
+        .main8{
+            background-color: rgb(226, 217, 43);
+        }
+
+        .main9 , .main10{
+            height:100px ;
+            width: 100px;
+            /* display: inline-block; */
+            /* margin: auto; */
+            /* will not work */
+            display: flex;
+            /* it is not working */
+
+            
+        }
+        .main9{
+            background-color: blue;
+        }
+        .main10{
+            background-color: rgb(226, 217, 43);
+        }
+        .parent{
+            display: flex;
+
+
+
+            /*------------------------- horizontal alignment -----------------------------------*/
+
+            /* justify-content: center; */
+            /* justify-content: right;
+            justify-content: space-around; */
+            justify-content: space-evenly;
+            /* justify-content:space-between; */
+            background-color: aqua;
+            height: 50vh;
+
+
+
+            /*----------------------------- vertical alignment -----------------------------------------*/
+
+            align-items: center;
+            /* align-items: flex-end; */
+            flex-wrap: wrap;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1 class="a">Hello world</h1>
+    <a  class="link" href="">link</a>
+    <h1>display :Inline</h1>
+    <h5>/* we use inline to convert block element such as 'h1' to inline element */</h5>
+    <h1>display: block;</h1>
+    <h5> /* we use inline to convert inline element such as 'a' to block element */</h5>
+    <h1>display: inline-block;</h1>
+    <h5>convert block to inline along with height and width</h5>
+    <button class="btn">click here</button>
+    <h3>            /* above the button will be we alligned in the centre of the page as it is inline element so we have to convert into block */
+    </h3>
+    <button class="btn2">click here</button>
+    <hr>
+    <div class="main1"></div>
+    <div class="main2"></div>
+<h1>when i convert block div to inline  if will only take the space that is need for the content in between them</h1>
+<div class="main3">1</div>
+<div class="main4">2</div>
+<h1>including height and with we want while converting block elements to get alined side by side</h1>
+<div class="main5"></div>
+<div class="main6"></div>
+<hr>
+<h1>margin:auto;</h1>
+<h5>margin:auto ; will center only block element but not inline or inline-block</h5>
+<hr>
+<h1>Flex:</h1>
+<h4>display:flex; should not be directly elements it will not work <span>we should give display:fles; to the parent element</span></h4>
+<div class="main7"></div>
+<div class="main8"></div>
+<p>_________________________ creating parent and applying flex  it will work__________________________________</p>
+<h1 style="color: red;">Parent is very important in flex</h1>
+<div class="parent">
+<div class="main9"></div>
+<div class="main10"></div>
+</div>
+<hr>
+<h1>justify-content: ; it is used to align contents <span style="color: red;">horizontally</span></h1>
+<h3>justify-content will only work with the flex and it will make the website more resposive</h3>
+<h1> align-items: ;  it is used to align contents <span style="color: red;">vertically</span></h1>
+<h3>align-items: ; will only work with the flex and it will make the website more resposive</h3>
+
+<hr>
+<h1>flex-wrap: wrap; </h1>
+<h3>flex-wrap: wrap; will move the elements to next part when the device withd will be decreased </h3>
+</body>
+</html>

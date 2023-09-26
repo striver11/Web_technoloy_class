@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grandgrandparent {
+            background-color: aqua;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grandparent {
+            background-color: red;
+            height: 700px;
+            width: 700px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .parent {
+            display: flex;
+            height: 500px;
+            width: 500px;
+            background-color: green;
+            justify-content: center;
+            align-items: center;
+            /* flex should be used in the "parent div" along with the justify-content and alight-items */
+        }
+
+        .child {
+            height: 100px;
+            width: 100px;
+
+            background-color: yellow;
+            /* display: hidden; */
+            display: none;
+            /*  display: none;  hide the contents along with the layout */
+            /* visibility: hidden; */
+            /* visibility: hidden; will show the layout and it will not hide the layout it only hides the contents  */
+            /* inspect it you will come to know */
+        }
+        .display{
+            height:500px;
+            width:500px;
+            background-color: red;
+            display: none;
+        }
+        .visiblity{
+            height: 500px;
+            width: 500px;
+                background-color: yellow ;
+                visibility: hidden;
+                /* here the  visibility: hidden; code  will hide the content but it will not hide the layout  */
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="grandgrandparent">
+        <div class="grandparent">
+            <div class="parent">
+                <div class="child"></div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="display">
+
+
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis fugit dicta, magnam nostrum ab repudiandae officia totam, odio eos corrupti dolor sequi, id ipsum enim. Saepe quod aliquam nihil culpa, rerum soluta libero consequuntur rem quaerat fuga exercitationem adipisci repellendus minima harum excepturi facere nisi ipsa? Eveniet optio in laboriosam id explicabo consequuntur excepturi provident nesciunt ullam esse. Voluptatem recusandae iure quidem deleniti, ex dicta temporibus eos qui vel blanditiis rerum nihil facilis, rem odio necessitatibus cumque cupiditate itaque dignissimos, maxime libero provident suscipit. Omnis soluta vel fugit beatae, laborum qui, blanditiis fugiat explicabo optio porro esse nihil impedit quisquam repellendus adipisci provident aliquid libero ab iste ullam repudiandae fuga corporis officia? Ipsa iste vitae possimus excepturi nulla commodi sunt eum nesciunt enim eaque distinctio, amet dolores. Harum numquam deleniti illo mollitia sequi aliquam alias dolorum at, modi dicta reprehenderit, amet architecto temporibus. Rerum dicta repudiandae ipsam libero dolore praesentium sint magni ad similique ab assumenda, amet nulla quasi officiis adipisci accusantium molestias. Atque recusandae at et placeat hic cumque nam laudantium, nemo totam nobis. Numquam consectetur magnam sed molestias nulla minima culpa impedit quibusdam ullam sapiente in deserunt a delectus, debitis error maxime dolore praesentium? Necessitatibus eos provident id esse vitae incidunt voluptates quod aliquid. Ipsa atque aliquam sint similique dolores quaerat molestiae repellat veniam. Quas itaque deleniti facilis temporibus omnis eligendi est nemo alias voluptatum accusamus, sapiente excepturi magni minima labore magnam maxime animi nihil hic? Nostrum ipsum magni perspiciatis asperiores quam hic aliquid ducimus ea totam voluptas iusto iste dignissimos numquam debitis nihil expedita rem placeat maiores ipsa adipisci, eum harum nesciunt facilis. Facilis similique sint reprehenderit tempora quae ab a quasi minima nobis, omnis blanditiis officia quos consequatur exercitationem libero fuga placeat esse consequuntur. Nulla, doloremque animi voluptatum praesentium necessitatibus fugiat cum repellendus molestias. Repudiandae non nihil nemo reiciendis laborum ea earum rem, suscipit possimus ex veritatis repellendus praesentium illum consequuntur quod quibusdam quae libero blanditiis sequi asperiores alias obcaecati quo. Officiis minima aperiam aut quisquam itaque qui praesentium reiciendis temporibus! Sed reprehenderit, totam nemo asperiores beatae vel numquam! Dolores, perferendis ab nihil praesentium officia eligendi animi veritatis voluptatum optio et odit obcaecati excepturi dolor magni doloremque. Facilis fugit neque qui quam, harum eveniet. Voluptates commodi, aliquid ab deleniti veritatis quae ut? Blanditiis dolor facilis voluptatibus qui? Mollitia cupiditate doloremque, eius ad sapiente voluptates dolor aperiam pariatur harum nihil eligendi veniam? Suscipit dignissimos sapiente molestiae ab laborum ex maiores voluptatum qui iusto in ipsa minima eum illum laboriosam temporibus, vero magnam quo modi et. Perspiciatis, nemo repudiandae itaque consequuntur expedita veritatis rem modi quisquam, culpa, beatae alias sit fugiat aperiam porro tempora nam ipsum saepe ipsa veniam. Sapiente qui nostrum impedit nihil! Nemo ad, laboriosam quisquam optio possimus ex nisi distinctio exercitationem nam voluptatibus tempore laudantium eius praesentium. Deserunt, at veniam. Excepturi error, obcaecati perspiciatis cupiditate corporis unde quod omnis nihil assumenda eveniet amet magni distinctio saepe tenetur doloribus, nemo placeat dolores illum qui hic, mollitia quo! Quisquam, ad? Voluptatem expedita dolor quos? Eveniet, nam at.</p>
+
+    <div class="visiblity">
+
+
+    </div>
+    <p>
+       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ex amet odio quibusdam ratione similique mollitia? Laboriosam maiores veniam harum aliquid mollitia dolorum? Ex illum ratione sit amet minima saepe velit nulla similique omnis id quibusdam excepturi et accusamus eos, nisi ducimus fuga est iusto. Veritatis maiores unde, facilis culpa, vel rem sapiente quo asperiores quae itaque enim aliquam rerum ullam iure omnis dolorum reiciendis delectus cum facere, debitis consequuntur autem molestias repudiandae! Exercitationem doloribus soluta ducimus nisi atque, perspiciatis facere recusandae unde sunt velit quae itaque? Excepturi quas culpa nemo mollitia itaque ab, at ratione cupiditate obcaecati consequuntur necessitatibus qui ducimus nulla provident ipsum hic dolor ad sapiente? Voluptates laboriosam a officiis odio delectus inventore rem praesentium. Quam similique fuga nisi vero sequi cupiditate. Distinctio iusto tempore impedit quibusdam labore optio sapiente cumque dolorum ea sint velit tenetur, explicabo vero blanditiis ad? Possimus soluta dignissimos eveniet autem officiis omnis sunt corrupti quisquam provident. Tenetur deleniti a aspernatur quaerat praesentium rem voluptas repellendus repudiandae officia vero tempora hic iste ullam excepturi, rerum nostrum. Iusto adipisci aut labore molestiae quaerat ut necessitatibus quas amet iste! Placeat sit velit eum repellendus? Iusto perspiciatis fuga dolor amet ad nisi, officiis fugiat ducimus quaerat! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, ex a repudiandae omnis officia illum. Consequuntur eum, ex architecto aspernatur facere recusandae ea neque dolore, quod numquam eaque obcaecati iure.
+    </p>
+
+</body>
+
+</html>

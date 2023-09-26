@@ -1,0 +1,293 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+background-color: rgba(0,0,0,0.8);
+overflow: hidden;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+/* background: rgba(94, 222, 111, 0.5); */
+
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+background-color: ;
+border-radius: 10px;
+}
+.navbar a{
+    text-decoration:none;
+    color:white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar li{
+    margin-right: 50px;
+}
+.navbar button{
+background-color: white;
+border: none;
+padding:10px;
+border-radius: 10px;
+font-weight: bold;
+}
+
+.navbar button:hover{
+    background-color: black;
+    color:white;
+}
+
+/*  Header css code starts*/
+
+.header{
+    background-image:url(https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_1280.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    background-position: center;
+    
+}
+.header h1{
+    color: white;
+   text-align: center;
+   font-size: 80px;
+   padding-top:150px;
+   /* background-color: black; */
+   
+}
+
+.header button{
+ background-color: white;
+border: none;
+padding:16px;
+border-radius: 10px;
+font-weight: bold;
+margin:10px auto;
+display: block;
+
+}
+
+.header button:hover{
+    background-color:#008000;
+    color: white;
+}
+
+/* crouser */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100vm;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+/*about section starts  */
+.section-wnh{
+    background-color: rgb(12, 24, 2);
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-wnh .left{
+    background-image: url(./images/travel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 300px;
+    text-align: center;
+}
+.section-wnh .right{
+    height: 50vh;
+    width: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+/* FOOTER CODE STARTS */
+.footer{
+  background-color: rgba(0,0,0,0.8);
+  color:white;
+  text-align: center;
+  padding: 20px;
+  line-height: 30px;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+  margin: 0px 20px;
+}
+
+/* contact page css code starts */
+.contact{
+  padding: 30px;
+  background-image: url(https://cdn.pixabay.com/photo/2018/08/12/15/29/hintersee-3601004_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.contact-inner{
+  background-color: rgba(0,0,0,0.5);
+  width: 50%;
+  height: 60vh;
+  margin: auto;
+  padding: 3%;
+
+}
+
+.contact input{
+padding: 10px 20px;
+outline: none;
+background-color: white ;
+border: none;
+border-radius:5px ;
+width: 100%;
+}
+
+.contact label{
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  display: block;
+
+}
+
+.contact-inner form{
+  /* background-color: ; */
+  width: 60%;
+  margin: auto;
+
+}
+
+form div{
+  margin-bottom: 20px;
+}
+
+.gender-btns{
+  display: flex;
+
+}
+
+.submit-btn{
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+}
+
+/* google map section css starts */
+.location h1{
+text-align: center;
+font-family: calibri;
+letter-spacing: 10px;
+padding: 10px;
+}
+
+.location iframe{
+  width: 100%;
+}
+
+.con-mobile{
+  text-align: center;
+  padding: 30px 0px;
+  color: #008000;
+}

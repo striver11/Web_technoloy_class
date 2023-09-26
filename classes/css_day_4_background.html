@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+    .a{
+        color: red;
+        text-align: center;
+        word-spacing: 100px;
+        letter-spacing: 10px;
+        /* text-decoration: underline overline blue 10px solid;     */
+        /* we should not seperate css by comma it will not work we should do it by giving spaces      'text-decoration: underline,overline; will not work '*/
+        text-transform: uppercase;
+        text-shadow:5px 5px 5px blue ;
+         /* we should give value for x-axix ,y-axix ,blur pixels,color */
+            font-size: 50px;
+            font-weight: lighter;
+            font-style: italic;
+            font-family: cursive;
+            /* default font family is times new roman */
+       
+
+    }
+    .b{
+        text-align: justify;
+        /* will justfy the content like in the ms word */
+        word-spacing: 10px;
+        /* gives the word pacing between the words with space of 10px */
+        letter-spacing: 20px;
+        /* give a spacing to each letters in the paragraph*/
+    }
+    .p1{
+        text-align: justify;
+        line-height: 30px;
+    }
+    .bb{
+        text-align: center;
+        background-color: white;
+        color: white;
+        text-shadow:0px 0px 10px black ;
+        /* if we give x-axis and y-axis as 0px and 0px the shadow will be around the text */
+
+    }
+    /* *{
+        background-color: palegoldenrod;
+    }  */
+    /* find the difference between above and bottom  */
+    body{
+        background-color: aqua;
+    }
+    .jatra{
+        height: 80px;
+        background:linear-gradient(red,yellow,blue,rgb(150, 16, 38),violet,green);
+    }
+    .jatra2{
+        height: 80px;
+        background:linear-gradient(to left,red,yellow,blue,rgb(150, 16, 38),violet,green);
+    }
+    .jatra3{
+        height: 80px;
+        width: 100px;
+        background:linear-gradient(-45deg,red,yellow,blue,rgb(150, 16, 38),violet,green);
+    }
+    .jatra4{
+        height: 80px;
+        /* width: 100px; */
+        background:linear-gradient(red 50%,blue 50%);
+        /* percentage only works for only two colors see in the below it will produce the problem in jatra5 */
+    }
+    .jatra5{
+        height: 80px;
+        /* width: 100px; */
+        background:linear-gradient(red 50%,blue 30%,green 20%);
+    }
+    .jatra6{
+        height: 80px;
+        /* width: 100px; */
+        background:radial-gradient(red 50%,blue 30%,green 20%);
+        /* this will only work for two colors  */
+    }
+    .jatra7{
+        height: 80px;
+        width: 100px;
+        background:radial-gradient(red,blue);
+    }
+    
+    </style>
+</head>
+<body>
+    <h1 class="a">Hello world</h1>
+    <div class="jatra"></div>
+    <h1 class="bb" >this is praveen</h1>
+    <div class="jatra2"></div><br>
+    <div class="jatra3"></div>
+    <br>
+    <div class="jatra4"></div><br>
+    <div class="jatra5"></div>
+    <br>
+    <div class="jatra6"></div><br>
+    <div class="jatra7"></div><br>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, ducimus, expedita quod recusandae reprehenderit veritatis exercitationem maxime, mollitia fuga excepturi ipsam perferendis architecto quam quas iusto impedit sequi. Suscipit similique animi odio sint nobis, doloribus reprehenderit nisi voluptates quibusdam a, quos quia earum? Ad, veritatis. Minima nam reprehenderit, neque, ipsum assumenda omnis vel quae numquam dolor odio adipisci! Minus, eum voluptatum in rem provident beatae neque voluptate ea dolorem illum. Cumque ipsa quae non unde architecto quod labore, odit fuga dolor, dolorem nemo et, quidem aut explicabo veniam error optio. Debitis voluptatum harum ab sequi asperiores, natus eveniet similique inventore! Laudantium voluptas eos ut! Nisi, libero nihil! Natus iusto odio harum sequi ullam ipsam quisquam laboriosam itaque id nostrum sed sunt culpa dolore dicta quibusdam quam nihil quidem assumenda, quis iure voluptatem? Recusandae cumque sequi, vitae voluptatem at voluptates veritatis incidunt culpa consequatur a, cupiditate molestiae? Cumque dicta dolores sit vitae corporis assumenda, beatae aliquam libero ut perspiciatis, quaerat ipsam! Corrupti laudantium consequuntur, commodi similique impedit accusantium unde ducimus ea sed hic ipsam delectus nam quos magnam nostrum optio expedita odit molestiae animi omnis sequi cupiditate iusto perspiciatis? Doloribus inventore modi voluptates eius. Corporis qui perspiciatis eos tempore asperiores laboriosam.</p>
+    <h1>the above paragraph is not justified</h1>
+    <p class="p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati animi, iste impedit vel quidem quod error aperiam. Perferendis est quas voluptatem corrupti officia ullam voluptates harum natus assumenda fugiat, nam blanditiis ipsum quidem facilis vel eum consequatur, amet optio tempore deleniti repellat dignissimos accusamus? Molestiae, cumque soluta recusandae repudiandae, minima cum minus cupiditate tenetur officia nesciunt aut nisi quasi, accusantium odit voluptates magnam eum id fugit distinctio eligendi a doloremque facere laboriosam! Officiis, eligendi omnis magnam rerum quis enim culpa incidunt! Amet excepturi magni maiores corrupti nostrum reprehenderit laudantium, consectetur nesciunt odio sunt deserunt nobis ex minima atque voluptate quod mollitia eveniet optio voluptas! Eligendi, optio est perferendis cupiditate voluptate eos pariatur velit culpa quia eum illum architecto labore nobis numquam iste molestiae harum distinctio? Ut perspiciatis amet nisi eaque qui voluptatem ducimus tenetur vel autem reiciendis. Obcaecati voluptatibus unde quod pariatur. Doloremque velit excepturi temporibus accusamus commodi soluta suscipit voluptate quis rem dicta facilis, numquam neque minima ipsam, sit quod laboriosam asperiores cum. Repellendus sunt ducimus, fugiat amet possimus consequatur debitis, laborum voluptates inventore maiores dicta, totam consectetur accusamus! Inventore dolore in, nostrum rem deserunt maiores aliquid velit nam, consequatur doloribus amet nobis assumenda! Error vitae molestiae labore similique ipsa ducimus adipisci ut facilis id possimus, assumenda corporis dicta doloribus, eligendi inventore debitis magni asperiores officiis. Nisi unde quam amet adipisci eos itaque accusantium nobis dolores architecto quod voluptatibus, reprehenderit, repellendus, eligendi magni nihil nulla? Reprehenderit consequatur assumenda quas, accusantium voluptates veritatis animi deserunt, maxime incidunt sequi modi commodi eius iure tenetur non culpa voluptatibus? Ad commodi quasi perspiciatis porro nemo maxime? Minus non architecto odio voluptates aliquam sapiente porro corporis inventore enim consectetur laborum, repellendus dolor fuga. Consequuntur esse ut reprehenderit reiciendis nam, incidunt maiores in quibusdam mollitia! Voluptate voluptatibus tempora doloremque veritatis placeat fuga temporibus exercitationem labore nulla! Ipsum omnis fugiat at aperiam minima delectus ullam est necessitatibus qui. Saepe perspiciatis voluptates labore cumque laudantium earum vitae, laboriosam nostrum, assumenda accusamus eaque magnam voluptas rem temporibus nesciunt id quod inventore libero perferendis modi! Veritatis quos, est illo velit neque voluptates facilis debitis quisquam, repellat aliquam praesentium voluptatibus! Quisquam animi nesciunt atque porro aspernatur dolor, deleniti rerum minus excepturi commodi. Nihil error ipsa consequuntur pariatur similique non fugit, ullam laboriosam cumque, facilis temporibus. Ducimus beatae eaque blanditiis libero, facilis vel accusantium, earum delectus sint nobis ipsam, minus sapiente? Officiis, aliquam omnis dicta quos commodi accusamus? Itaque eveniet numquam quos labore natus rerum saepe officiis placeat, quaerat sunt! Obcaecati fugiat corrupti iure? Ipsum optio facere, totam saepe, cupiditate quis explicabo molestias asperiores maiores blanditiis pariatur inventore amet dolore suscipit! Modi dolorem libero impedit accusamus facilis nostrum a autem, magnam inventore at sapiente eaque, dicta corporis aliquid nobis esse voluptatum enim nemo asperiores repellat quas perferendis cumque quos. Quisquam obcaecati officia delectus cum, at perferendis, adipisci autem consequuntur mollitia dolorum rerum repudiandae doloribus quidem earum. Praesentium enim, provident necessitatibus assumenda iusto, repellat, magnam eligendi pariatur quibusdam dolore perspiciatis cupiditate tempore veritatis porro maxime omnis ex sunt aperiam sit dignissimos velit?</p>
+    <p class="b">Lorem ipsum, dlorem40olor Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi ut repellendus odio autem aliquam error nulla, voluptate nobis enim, cumque ad molestiae, voluptatibus earum dolor iste aspernatur odit pariatur? Quo, assumenda? Ipsam dolorum, explicabo dolores doloremque consequuntur laboriosam! Fugit dolorum veniam amet non vero quia cupiditate quo aliquam! Nesciunt ab mollitia eum unde quidem nobis sit, saepe quae aliquam animi repellendus officia alias quibusdam eligendi magni ullam aspernatur aperiam sapiente. Blanditiis id earum laboriosam iste omnis aperiam et distinctio quia? Dolorum eligendi animi dolores nostrum doloribus odit commodi iusto obcaecati, voluptates repellendus expedita, libero ipsum pariatur quaerat. Atque, ab ducimus. sit amet consectetur adipisicing elit. Officia optio fugit sapiente inventore quidem accusantium exercitationem architecto nihil, quaerat impedit voluptatum tempora consequuntur dolore beatae, magnam iusto cum deserunt rerum, omnis dolores! Minus unde officia dolorum hic maxime omnis dolor, enim placeat voluptatibus odit eligendi consequuntur blanditiis magnam mollitia iure accusamus facilis sunt iusto laudantium odio non autem saepe in nam. Quisquam fuga, dignissimos assumenda neque doloremque quae cum unde accusamus debitis libero ipsa, necessitatibus suscipit. Ducimus similique possimus, corporis, eaque nam inventore maiores nesciunt blanditiis at tempore molestiae? Natus, totam velit maiores molestiae rerum a! Quos asperiores impedit possimus.</p>
+</body>
+</html>

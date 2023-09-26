@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>map method will not affect the original array</h1>
+    <h2>in map method  this is correct syntax map(function(element,index)) we cannot write map(function(index,element))</h2>
+   <hr>
+   <hr>
+   <h1 >higher order functions of array</h1>
+   <ul>
+    <li>javascript array is having 3 very important higher order fucntions they are</li>
+    <ol>
+        <li>map</li>
+        <li>filter</li>
+        <li>reduce</li>
+    </ol>
+   </ul>
+   <h3>map</h3>
+   <p>map mehtod is used to perform common operation on each element of the array</p>
+   <p>it will return a new array without madifying the original array</p>
+   <p>syntax:</p>
+   <p> array.map((element,index) =>{ return statement})</p>
+   <p>it takes a callback function which will exicute for each and every element of the array</p>
+
+
+   <hr><hr>
+   <h1>filter</h1>
+   <p>it is used to filter the elements in an array based on the condition</p>
+   <p>it returns a new array without modifying original array</p>
+   <p>it takes a call back fucntion as the argument , that fucntion exicutes for each and every element of the array</p>
+   <p>syntax:array.filter((element,index) =>{ return statement})</p>
+<hr><hr>
+   <h1>reduce
+   </h1>
+   <p>it is used to reduce the array into single value</p>
+   <p>it returns single value as the output</p>
+   <p>it takes a callback function which will exicute for each and every element of the array</p>
+   <p>syntax:array.reduce((current,next) =>{return statement})</p>
+    <script src="day24.js"></script>
+</body>
+</html>

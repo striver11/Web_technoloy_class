@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    p{
+        font-style: italic;
+        line-height: 30px;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        text-indent: 30px;
+    }
+    p::first-letter{
+        font-size:50px;
+        font-weight:bold;
+        
+    }
+    .a::first-line{
+        color: green;
+    }
+    .in{
+            border: none;
+            background-color: rosybrown;
+            padding: 10px 20px;
+            border-radius: 3px;
+            border-bottom: 5px solid blue;
+            outline: none;
+            /* we will remove the outline which will come only when we click on the input box    */
+            color:red;
+            /* color is used to  give color to what the user is typing in the palce holder */
+        }
+        .in:focus{
+            box-shadow: inset  0 -2px #ffcccb;
+            background-color: white;
+        }
+        input::placeholder{
+            color: black;
+            /* by giving the color black we can give the placeholder pseudo element color ,not with the color in any other css   */
+        }
+
+        *::selection{
+            background-color: red;
+            color:yellow;                                                                                                                                                               
+        }
+</style>
+</head>
+<body>
+    <h1 id="he1"> Heading one</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere doloremque, tempora sapiente, sint corporis aut reprehenderit, nemo sit optio praesentium dolorum! Tempora nulla accusamus dolores rerum odio sequi enim rem, ut et illo pariatur minima ad. Odio vitae minima rem voluptas fugiat asperiores beatae reiciendis libero minus enim aliquam incidunt laboriosam sunt ipsa facere impedit ab, perspiciatis omnis quod nisi maiores. Non perspiciatis unde ipsum voluptatum. Nihil corporis dolorem accusamus, facilis fuga suscipit beatae consectetur, voluptates quaerat repudiandae commodi ea? Inventore perspiciatis nihil asperiores doloremque aliquid placeat, eveniet esse nisi consectetur rem eaque, architecto, tempora itaque sapiente soluta et quis.</p>
+<p class="a">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia consectetur et voluptates fuga nisi s Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quas sapiente doloremque recusandae ea ipsum numquam explicabo rem necessitatibus aut id ducimus quibusdam natus voluptates atque animi velit, impedit, incidunt quo aperiam voluptatibus ratione! Corrupti voluptates ipsa illum a voluptate sequi, quaerat obcaecati consequatur numquam molestias aliquid qui omnis iusto quis ut est molestiae quas dicta placeat provident vitae porro vel similique quo! Beatae consequatur quibusdam sit enim cupiditate, libero iusto suscipit ex dolore dolorem debitis maxime natus in voluptatum, porro sint necessitatibus numquam sed impedit consectetur aspernatur at. Debitis minima, officia illum eos commodi amet ipsam at fugit excepturi eveniet. Ex numquam voluptatibus exercitationem cumque dignissimos. Molestias adipisci est, ab nulla blanditiis nobis ipsam facilis maxime quos maiores dolorum pariatur inventore porro modi aspernatur quisquam molestiae voluptatibus nihil aperiam sapiente consequatur labore reprehenderit. Labore voluptate possimus incidunt architecto beatae ea soluta excepturi iure obcaecati, debitis sapiente aspernatur ducimus sit nobis blanditiis id voluptatem perferendis qui! Laudantium non aperiam quo ducimus. Facere et architecto ab eaque sapiente eos incidunt perspiciatis unde voluptates, neque dolorem odio. Nesciunt eaque ea sint exercitationem id nostrum, quibusdam totam similique, consectetur praesentium fugit quisquam iure, quae accusamus possimus libero. Omnis adipisci cupiditate eum quae laudantium. int? Corporis modi voluptates accusamus soluta!</p>
+<input class="in" type="text" placeholder="some text">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum, voluptates, eius quas ratione esse debitis tenetur provident laborum consequuntur ipsum facere optio nisi perspiciatis. Soluta perferendis dolores dignissimos aut veniam maxime corporis voluptates nobis molestias recusandae illo rem culpa, explicabo, quibusdam facere, perspiciatis sint et cum. Quae, quo voluptas!</p>
+</body>
+</html>

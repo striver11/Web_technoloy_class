@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            background-color: black;
+            text-align: center;
+            color: white;
+            font-size: 50px;
+        }
+        /* we should not use space between the ".a  :hover " it will be a it will apply the hover effect to inside elements it is called desendent selector*/
+        .a:hover{
+            cursor: grab ;
+            color:red;
+
+        }
+        .btn{
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 50px;
+            transition: all 0.4s;
+            /* we should write the trasistion in direct code instead of hover it will apply at the both time when we hover and remove the hover check it once */
+            
+        }
+        .btn:hover{
+            border-radius: 50%;
+            /* if we want to add time to the hover effect we should use trasistion */
+            /* transition: all 0.4s; */
+            /* if we apply trasition in hover it will apply only once we hove on it , when we remove the cursor it will  transistion with high-speed or default speed */
+
+        }
+        .im{
+            height: 200px;
+            width: 200px;
+            transition: all .5s;
+        }
+        /* never give space  between the "class name" and "":""  i will not work */
+        .im:hover{
+            border-radius: 50px 0px 50px 0px;
+        }
+        .in{
+            border: none;
+            background-color: rosybrown;
+            padding: 10px 20px;
+            border-radius: 3px;
+            border-bottom: 5px solid blue;
+            outline: none;
+            /* we will remove the outline which will come only when we click on the input box    */
+        }
+        .in:focus{
+            box-shadow: inset  0 -2px #ffcccb;
+            background-color: white;
+        }
+        #insta:visited{
+            color: green;
+
+        }
+        #code:link{
+            color: aqua;
+        }
+
+        li:first-child{
+            color: red;
+        }
+        li:last-child{
+            color: green;
+            border: 1px solid blue;
+        }
+        li:nth-child(even)
+        {
+            color: aqua;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <h1 class="a">Hello World</h1>
+    <button class="btn" type="">click me</button>
+    <p>first we should write the normal design for the button after that we should write the hover pseudo selector then only hover effect will apply</p>
+<p>            /* if we want to add time to the hover effect we should use trasistion */
+</p>
+<img  class="im" src="https://cdn.pixabay.com/photo/2023/06/21/15/07/butterfly-8079524_1280.jpg" alt="">
+<br>
+<input class="in" type="text" placeholder="some text">
+<p>when we click on the input and try to write we will get the input outline </p>
+<h1 style="color:red">focus it only works on input</h1>
+<p>Focus is nothing but when we click it is nothing but focus</p>
+<a  href="https://www.facebook.com/"><h1>facebook</h1></a>
+<h3>facebook is showing default visited link color that is purple</h3>
+<a id="insta" href="https://www.instagram.com/"><h1>instagram</h1></a>
+<h3>using visited we can give diffenet color to visisted links</h3>
+<a id="code" href="https://www.codeche.com/"><h1>codeche</h1></a>
+<h3>as codechef is not visited it will be shown in blue color after visting it will change the color to defult chrome or what we had add it in the css</h3>
+<ul>
+    <li>java</li>
+    <li>PYTHON</li>
+    <li>RUBY</li>
+    <li>HTML</li>
+    <li>kjashflkjafh</li>
+    <li>Lorem, ipsum dolor.</li>
+    <li>Lorem, ipsum dolor.</li>
+    <li>fd;ladfa;iof</li>
+</ul>
+<ul id="lis">
+    <li>jflkajfl</li>
+    <li>lsfalsfj</li>
+    <li>;asfdfa;ifua</li>
+    <li>lk;sjf;alsdf8weuflakdflkfjaf0</li>
+    <li>;dsfj;alsdfj;ao</li>
+    <li>lksjffalsfdjl</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

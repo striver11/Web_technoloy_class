@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>borders</title>
+    <style>
+        .para
+        {
+            border-top: 20px red solid ;
+            border-bottom: 20px red solid; 
+            border-left: 20px red solid ;
+            border-right: 20px red solid ;
+        }
+        .h{
+            border-top: 20px  solid ;
+            border-bottom: 20px blue solid; 
+            border-left: 20px red solid ;
+            border-right: 20px red solid ;
+            text-align: center;
+        }
+        .button
+        {
+            border: 5px ridge red;
+            /* solid will 2d effect but ridge,groove will give 3d effect */
+            height: 50px;
+            border-radius: 10px;
+        }
+        input{
+            border: 5px green groove ;
+            border-radius: 50px ;
+        }
+        #img1{
+            height: 500px;
+            width: 500px;
+            border-radius: 50%;
+            /* this border radius will be applied to all of the website */
+        }
+        #img2{
+            height: 500px;
+            width: 500px;
+            border-radius: 0px 50px 0px 50px;
+            /*border-radius: (top left)px (top right)px (bottom right)px (bottom left)px;  */
+            /* for remembering the syntax goes in clock-wise pattern */
+            /* it is four variable syntax */
+        }
+        #img3{
+            height: 500px;
+            width: 500px;
+            border-radius: 0px 50px;
+            /* the sytax for above is border-radius: (topleft and bottom-right)px (top-right and bottom-left)px;*/
+            /* it is two variable syntax */
+            /* without giving the border also we can apply border-radius     */
+            
+        }
+        #img4{
+            height: 500px;
+            width: 500px;
+            border-radius: 50% 0px 50% 50%;
+            /* the sytax for above is border-radius: (topleft and bottom-right)px (top-right and bottom-left)px;*/
+            /* it is two variable syntax */
+            
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1 class="h">this is my border page</h1>
+<p class="para">hellow wolkflskfjadfjaj;lakjl  Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis suscipit dignissimos cupiditate, magni culpa minus reiciendis velit nihil omnis fuga. Autem esse reprehenderit, sapiente beatae deleniti quaerat perferendis nostrum saepe minus veniam accusantium doloremque, consequatur blanditiis cumque iste est aliquid minima natus inventore nisi pariatur enim. Accusantium consequatur earum ullam possimus laboriosam aperiam eum eveniet consequuntur dolor cumque amet nobis obcaecati asperiores voluptatem, expedita quia ad eligendi recusandae molestiae natus, incidunt iste nostrum. Vitae perferendis magnam voluptatem est tempore totam provident explicabo? Cupiditate atque et aliquam, a obcaecati facere nemo facilis error dolore sint ipsum maiores harum soluta consequatur accusamus?</p>
+    <button type="" class="button">this is the button</button><br>
+<input type="text" name="" id=""><br>
+<img id="img1" src="https://cdn.pixabay.com/photo/2023/06/21/14/17/mountain-8079469_1280.jpg" alt="">
+
+<img id="img2" src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg" alt="">
+
+<img id="img3" src="https://cdn.pixabay.com/photo/2023/06/22/03/58/animals-8080446_1280.jpg" alt="">
+<img id="img4" src="https://cdn.pixabay.com/photo/2023/06/22/03/58/animals-8080446_1280.jpg" alt="">
+
+</body>
+</html>

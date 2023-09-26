@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where next, Honey?</title>
+    <link rel="icon" type="" href="./images/travel.jpg ">
+    <link rel="stylesheet" type="" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    
+</head>
+<style>
+      @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+.list-group li {
+    flex-direction: row;
+    margin-right: 10%;
+    margin-left: 0%;
+    font-size: 20px;
+
+}
+
+.card-text {
+    margin: 0;
+   
+
+}
+
+.card img {
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 0;
+    position: relative;
+    width: 14rem;
+    display: flex;
+    align-self: center;
+
+    overflow: hidden;
+
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+
+}
+
+.card {
+    padding-top: 10px;
+    background-color: #000;
+    overflow: hidden;
+    transition: transform .2s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.list-group-item {
+    color: white;
+    left: 7%;
+    text-align: center;
+    border: none;
+background-color: #000;
+    /* border-bottom: 1px solid #eb9b84; */
+    text-transform: capitalize;
+    padding: 0;
+
+}
+
+.exp{
+font-size: 15px;
+color: #181D31;
+font-weight: normal;
+background-color: #5c17e5;
+padding-top: 2px;
+border: 2px solid #000;
+
+}
+
+.exp span{
+ font-weight: bold;
+ align-items: baseline;
+}
+
+@media screen and (max-width: 350px) {
+    .card img {
+        width: 150px;
+    }
+
+}
+</style>
+</style>
+
+
+<body>
+    <div class="navbar">
+        <div class="logo" style="align-items: center; display: flex;">
+            <img src="./images/travel.jpg" alt="image not found">
+           <span style="margin-left:10px;font-size: 31px;color: white;"  >Where Next, Honey?</span>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="./about.html">About</a></li>     
+            <li><a href="./services.html">Servies</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <!-- <li><a href="packages.html">Packages</a></li> -->
+        </ul>
+        <div>
+        <a href="./login.html"><button>Login</button></a>
+        <a href="./registration.html"><button>Register</button></a>
+    </div>
+
+    </div>
+
+
+    <!--  Header code starts-->
+    <div class="header">
+        <h1>Best Tourist Web Site in the world</h1>
+        <a style="text-decoration: none;" href="https://www.instagram.com/" target="_blank"><button>Follow Us</button></a>
+    </div>
+
+    <!-- image Carousal code -->
+    <div class="slideshow-container" style="width: 100vm;">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="https://cdn.pixabay.com/photo/2016/10/14/19/21/canyon-1740973_1280.jpg" style="width:100%; " >
+          <div class="text" style="font-size: 30px;">Kilimanjaro</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="https://cdn.pixabay.com/photo/2017/02/01/22/02/mountain-landscape-2031539_1280.jpg" style="width:100%;" >
+          <div class="text" style="font-size: 30px;">Kashmir</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="https://cdn.pixabay.com/photo/2018/08/12/15/29/hintersee-3601004_1280.jpg" style="width:100%;" >
+          <div class="text" style="font-size: 30px;">Goa</div>
+        </div>  
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+
+
+
+   
+
+    
+   
+
+    <!-- cards start here -->
+    <div class="main">
+        <h1 style="text-align: center;" >Top places in world to visit near you</h1>
+    </div>
+    
+    
+        <div class="container">
+            <div class="row">
+    
+               
+    
+                <div class="col">
+                    <div class="p-3 bg-light">
+    
+                        <div class="card">
+                            <img src="https://www.holidify.com/images/bgImages/MALDIVES.jpg" style="height: 145px;" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">
+                                <ul class="list-group">
+                                    <li class="list-group-item " style="padding-bottom: 10px;">MALDIVES</li>
+                                    
+                                    <li class="list-group-item exp"><a href="#"><button style="background-color: #5c17e5;border: none;">Explore More</button></a></li>
+                                </ul>
+    
+                                </p>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 bg-light">
+    
+                        <div class="card">
+                            <img src="https://www.holidify.com/images/bgImages/INDIA.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">
+                                <ul class="list-group">
+                                    <li class="list-group-item " style="padding-bottom: 10px;">INDIA</li>
+                                    
+                                    <li class="list-group-item exp"><a href="#"><button style="background-color: #5c17e5;border: none;">Explore More</button></a></li>
+                                
+                                </ul>
+    
+                                </p>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3  bg-light">
+    
+                        <div class="card">
+                            <img src="https://www.holidify.com/images/bgImages/SRI-LANKA.jpg" style="height: 145px;" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">
+                                <ul class="list-group">
+                                    <li class="list-group-item " style="padding-bottom: 10px;">SRI LANKA</li>
+                                    
+                                    <li class="list-group-item exp"><a href="#"><button style="background-color: #5c17e5;border: none;">Explore More</button></a></li>
+                                
+                                </ul>
+    
+                                </p>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 bg-light">
+    
+    
+                        <div class="card">
+                            <img src="https://www.holidify.com/images/bgImages/BHUTAN.jpg"style="height: 145px;" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">
+                                <ul class="list-group">
+                                    <li class="list-group-item " style="padding-bottom: 10px;">BHUTAN</li>
+                                    
+                                    <li class="list-group-item exp"><a href="#"><button style="background-color: #5c17e5;border: none;">Explore More</button></a></li>
+                                 </ul>
+    
+                                </p>
+                            </div>
+                        </div>
+    
+    
+    
+                    </div>
+                </div>
+    
+    
+            </div>
+        </div>
+
+        <!-- second row cards start -->
+        <div class="main">
+            <h1 style="text-align: center;" >Top places near your location to visit</h1>
+        </div>
+        
+        
+            <div class="container">
+                <div class="row">
+        
+                   
+        
+                    <div class="col">
+                        <div class="p-3 bg-light">
+        
+                            <div class="card">
+                                <img src="https://www.holidify.com/images/cmsuploads/compressed/4130_20190406114925.JPG" style="height: 145px;" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                    <ul class="list-group">
+                                        <li class="list-group-item " style="padding-bottom: 10px;">Bannerghatta National Park</li>
+                                        
+                                        <li class="list-group-item exp"><a href="#"><button style="background-color: #5c17e5;border: none;">Explore More</button></a></li>
+                                    </ul>
+        
+                                    </p>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 bg-light">
+        
+                            <div class="card">
+                                <img src="https://www.holidify.com/images/cmsuploads/compressed/C1_20170905112652.PNG" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                    <ul class="list-group">
+                                        <li class="list-group-item "  style="padding-top: 20px; padding-bottom: 40px;">Cubbon Park</li>
+                                        
+                                        <li class="list-group-item exp"><a href="#"><button style="background-color: #5c17e5;border: none;">Explore More</button></a></li>
+                                    
+                                    </ul>
+        
+                                    </p>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3  bg-light">
+        
+                            <div class="card">
+                                <img src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_154851008_20200123162547_20200123162603.png" style="height: 145px;" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                    <ul class="list-group">
+                                        <li class="list-group-item "  style="padding-top: 10px; padding-bottom: 30px;">Lalbagh</li>
+                                        
+                                        <li class="list-group-item exp"><a href="#"><button style="background-color: #5c17e5;border: none;">Explore More</button></a></li>
+                                    
+                                    </ul>
+        
+                                    </p>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 bg-light">
+        
+        
+                            <div class="card">
+                                <img src="https://www.holidify.com/images/cmsuploads/compressed/BangalorePalace16_20190904100428_20190904100439.jpg"style="height: 145px;" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                    <ul class="list-group">
+                                        <li class="list-group-item " style="padding-top: 10px; padding-bottom: 30px;">Bangalore Palace</li>
+                                        
+                                        <li class="list-group-item exp"><a href="#"><button style="background-color: #5c17e5;border: none;">Explore More</button></a></li>
+                                     </ul>
+        
+                                    </p>
+                                </div>
+                            </div>
+        
+        
+        
+                        </div>
+                    </div>
+        
+        
+                </div>
+            </div>
+    
+    
+    
+    
+    
+       
+    
+
+             <!-- ABOUT SECTION OF OUR SITE -->
+        
+             <div class="section-wnh">
+                <div class="left">
+                    <h1>Where Next, Honey?</h1>
+                </div>
+                <div class="right">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At quidem modi suscipit necessitatibus rem earum provident labore ducimus eos esse! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto consequuntur nostrum dignissimos, dolore ratione voluptates nemo recusandae dolor odit ipsum totam soluta laborum ea magnam quibusdam quasi quo illo? Unde?</p>
+                    <button>Read More</button>
+                </div>
+        </div>
+    
+        <!-- about wnh section ends -->
+
+         <!-- footer section starts -->
+    <div class="footer">
+        <a href="https://www.instagram.com/">instagram</a>
+        <a href="https://www.whatsapp.com/">Whatsapp</a>
+        <a href="https://www.twitter.com/">Twitter</a>
+        <p>&copy; All rights Reserved - 2023</p>
+
+    </div>
+    
+    
+        <script src="https://kit.fontawesome.com/68fef95737.js" crossorigin="anonymous"></script>
+    
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        -->
+
+
+
+
+
+<!--https://cdn.pixabay.com/photo/2016/10/14/19/21/canyon-1740973_1280.jpg  -->
+<!-- https://cdn.pixabay.com/photo/2017/02/01/22/02/mountain-landscape-2031539_1280.jpg -->
+<!-- https://cdn.pixabay.com/photo/2018/08/12/15/29/hintersee-3601004_1280.jpg -->
+        
+<script src="./script.js">
+    
+</script>
+</body>
+
+</html>

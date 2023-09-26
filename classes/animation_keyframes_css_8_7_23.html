@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation keyframs</title>
+    <style>
+        @keyframes changeTextColor {
+            /* from {  
+                color: white;
+
+            } */
+            /* it will take default given in css element code if we don't give from  */
+
+
+            /* from {  
+                color: green;
+
+            } */
+            /* it will not show any differece as  */
+
+            to{
+                color: green;
+            }
+            
+        }
+
+
+
+        .h{
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-size: 50px;
+            padding: 10px 0px;
+            font-family: sans-serif;
+            animation-name:changeTextColor ;
+            /* duration is compulsory  for animation*/
+            /* animation-duration:0.1s; */
+            /* animation-iteration-count: infinite; */
+            /* animation-iteration-count: 4; */
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            /* animation-direction: alternate-reverse; */
+            animation-delay: 3s;
+            /* starting time taken to load the animation to act in page for the first time */
+
+        } 
+        
+       
+
+
+        .h1{
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-size: 50px;
+            padding: 10px 0px;
+            font-family: sans-serif;
+            /* animation-name:changeTextColorMul ;
+            animation-duration: 2.5s;
+            animation-iteration-count: infinite;  
+            animation: name duration timing-function delay iteration-count direction fill-mode; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: changeTextColorMul 1s infinite alternate;
+          
+
+          
+        }
+
+        @keyframes changeTextColorMul {
+            0%{
+                color: white;
+            }
+            25%{
+                color: green;
+            }
+            50%{
+                color: blue;
+
+            }
+            75%{
+                color: red;
+            }
+            100%{
+                color: orchid;
+            }
+            
+        }
+
+        .im{
+            height: 350px;
+            transform: translateX(0px);
+            animation-name: movement;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            /* animation-direction: alternate; */
+
+            /* animation-timing-function: linear; */
+            /* will make the aniamtion to flow in in the same speed remove it and see  */
+            /* animation-timing-function: ease; */
+            /* animation-timing-function: ease-in; */
+            /* animation-timing-function: ease-out; */
+            animation-timing-function: ease-in-out;
+            animation-direction:alternate-reverse ;
+            /* it will start from the right side of the screen just refresh it countinuously you will see it */
+
+        }
+
+        @keyframes movement {
+            to{
+                transform: translateX(1200px);
+            }
+            
+        }
+        
+    </style>
+</head>
+<body>
+
+    
+    
+
+    <h1 class="h">Hello world</h1>
+    <h1 class="h1">Hello world</h1>
+    <img class="im" src="https://cdn.pixabay.com/photo/2022/08/17/15/46/labrador-7392840_1280.jpg" alt=""> 
+
+</body>
+</html>

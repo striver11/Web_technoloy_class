@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: red; text-align: center;">NESTED TABLE</h1>
+    <table border="1" rules="all" width="600px"  align="center">
+        <thead>
+            <tr>
+                <th rowspan="3"> Day</th>
+                <th style="background-color: blueviolet;" colspan="3">Seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Topic</th>
+            </tr>
+
+
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+        </thead>
+        <tbody align="center">
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8.00 a.m.</td>
+                <td rowspan="2">5.00 p.m.</td>
+                <td colspan="2">Indroduction</td>
+
+            </tr>
+            <tr>
+                <td colspan="2">validity</td>
+            </tr>
+            <tr>
+                <td rowspan="3" >tuesday</td>
+                <td>8</td>
+                <td>11</td>
+                <td rowspan="3">
+                <table border="1" rules="all" height="200px
+                    " width="100%">
+                    <tr>
+                        <td>xpath</td>
+                    </tr>
+                    <tr><td>xsltraformstion</td></tr>
+                </table>
+            </td>
+                
+                  
+            </td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>2</td>
+                <!-- <td  rowspan="" colspan="2">xsl </td> -->
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>5</td>
+
+            </tr>
+            <tr>
+                <td>wednesday</td>  
+                <td>8</td>
+                <td>12</td>
+                <td colspan="2">xsl formatting</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
